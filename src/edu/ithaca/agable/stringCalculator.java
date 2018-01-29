@@ -1,8 +1,6 @@
 package edu.ithaca.agable;
 
-public class stringCalculator {
+public interface stringCalculator {
 
-    int Add(String numbers){
-        return 0;
-    }
+    int Add(String numbers);
 }
