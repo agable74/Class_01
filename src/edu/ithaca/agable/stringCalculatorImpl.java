@@ -15,7 +15,7 @@ public class stringCalculatorImpl implements stringCalculator{
             //counts up number of numbers
             int numNumbers = 1;
             for (int j = 0; j < numbers.length(); j++) {
-                if (numbers.charAt(j) == ',') {
+                if (numbers.charAt(j) == ',' ||  numbers.charAt(j) == '\n') {
                     numNumbers++;
                 }
             }
@@ -24,7 +24,7 @@ public class stringCalculatorImpl implements stringCalculator{
             int startIndex = 0;
             for (int j = 0; j < numNumbers-1; j++) {
                 for (int i = 0; i < numbers.length(); i++) {
-                    if (numbers.charAt(i) == ',') {
+                    if (numbers.charAt(i) == ',' ||  numbers.charAt(i) == '\n') {
                         startIndex = i;
                     }
                 }
@@ -58,7 +58,7 @@ public class stringCalculatorImpl implements stringCalculator{
                     }
                 }
             }
-            if(!numbers.contains(",")){
+            if(!numbers.contains(",") && !numbers.contains("\n")){
                 //single values
                 if(!numbers.contains("-")){
                     //positive
