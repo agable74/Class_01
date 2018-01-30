@@ -15,10 +15,12 @@ class stringCalculatorTest {
         String oneStringPos = "1";
         String oneStringNeg = "-1";
         String oneStringZero = "0";
+        String oneStringLong = "-100000";
 
         assertEquals(1,myStringCalculator.Add(oneStringPos),"Does not add single positive value");
         assertEquals(-1,myStringCalculator.Add(oneStringNeg),"Does not add single negative value");
         assertEquals(0,myStringCalculator.Add(oneStringZero),"Does not add single zero value");
+        assertEquals(-100000,myStringCalculator.Add(oneStringLong),"Does not add single long string");
 
         String twoStringPosPos = "1,1";
         String twoStringPosNeg = "1,-1";
