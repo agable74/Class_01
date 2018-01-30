@@ -8,35 +8,11 @@ public class stringCalculatorImpl implements stringCalculator{
         if(numbers == ""){
             return 0;
         }
-        if(!numbers.contains(",")){
-            //single values
-            if(!numbers.contains("-")){
-                //positive
-                boolean isDigit = true;
-                for(int i = 0; i < numbers.length(); i++){
-                    if(!isDigit(numbers.charAt(i))){
-                        isDigit = false;
-                    }
-                }
-                if(isDigit){
-                    return Integer.parseInt(numbers);
-                }
-            }else{
-                //negative
-                boolean isDigit = true;
-                for(int i = 1; i < numbers.length(); i++){
-                    if(!isDigit(numbers.charAt(i))){
-                        isDigit = false;
-                    }
-                }
-                if(isDigit && numbers.charAt(0)=='-'){
-                    return Integer.parseInt(numbers);
-                }
-            }
-        }
         else {
+            //for multiple or just one
             int totalNum = 0;
 
+            //counts up number of numbers
             int numNumbers = 1;
             for (int j = 0; j < numbers.length(); j++) {
                 if (numbers.charAt(j) == ',') {
@@ -44,6 +20,7 @@ public class stringCalculatorImpl implements stringCalculator{
                 }
             }
 
+            //goes through string, cuts a piece from the end and converts and adds that
             int startIndex = 0;
             for (int j = 0; j < numNumbers-1; j++) {
                 for (int i = 0; i < numbers.length(); i++) {
@@ -52,7 +29,9 @@ public class stringCalculatorImpl implements stringCalculator{
                     }
                 }
 
+                //takes the end piece
                 String potentialNum = numbers.substring(startIndex+1);
+                //cuts down original to exclude end piece
                 numbers = numbers.substring(0, startIndex);
 
                 if(!potentialNum.contains("-")){
@@ -107,6 +86,5 @@ public class stringCalculatorImpl implements stringCalculator{
             }
             return totalNum;
         }
-        return -1;
     }
 }
