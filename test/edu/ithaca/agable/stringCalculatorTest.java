@@ -30,6 +30,17 @@ class stringCalculatorTest {
         assertEquals(0,myStringCalculator.Add(twoStringNegPos),"Does not add negative then positive");
         assertEquals(-2,myStringCalculator.Add(twoStringNegNeg),"Does not add two negatives");
 
+        String threeStringAllNeg = "-1,-1,-1";
+        String threeStringMix = "-1,1,-1";
+        String threeStringAltMix = "1,-1,1";
+        String tenStringMix = "-1,1,-1,1,-1,1,-1,-1,-1,1";
+        String tenStringLarge = "-100,100,-100,100,-100,100,-100,-100,-100,100";
+
+        assertEquals(-3,myStringCalculator.Add(threeStringAllNeg),"Does not add all negatives");
+        assertEquals(-1,myStringCalculator.Add(threeStringMix),"Does not add mix");
+        assertEquals(1,myStringCalculator.Add(threeStringAltMix),"Does not add alt mix");
+        assertEquals(-2,myStringCalculator.Add(tenStringMix),"Does not add ten mix");
+        assertEquals(-200,myStringCalculator.Add(tenStringLarge),"Does not add ten large");
     }
 
 }
