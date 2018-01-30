@@ -41,6 +41,16 @@ class stringCalculatorTest {
         assertEquals(1,myStringCalculator.Add(threeStringAltMix),"Does not add alt mix");
         assertEquals(-2,myStringCalculator.Add(tenStringMix),"Does not add ten mix");
         assertEquals(-200,myStringCalculator.Add(tenStringLarge),"Does not add ten large");
+
+        String newLineTwo = "-1\n1";
+        String newLineThreeMix = "-1,1\n1";
+        String newLineThree = "-1\n-1\n-1";
+        String newLineThreeMixAlt = "-1\n1,1";
+
+        assertEquals(0,myStringCalculator.Add(newLineTwo),"Does not add with newline");
+        assertEquals(1,myStringCalculator.Add(newLineThreeMix),"Does not add newline mix");
+        assertEquals(-3,myStringCalculator.Add(newLineThree),"Does not add all newlines");
+        assertEquals(1,myStringCalculator.Add(newLineThreeMixAlt),"Does not add newline alt mix");
     }
 
 }

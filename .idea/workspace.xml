@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97179c20-9d35-4cfb-b950-6b47a7572e66" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java" afterPath="$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java" />
+      <change beforePath="$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java" afterPath="$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringCalculatorImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stringCalculatorImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-742">
+            <state relative-caret-position="0">
               <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringCalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stringCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+            <state relative-caret-position="385">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculator.java" />
-        <option value="$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -282,14 +282,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="stringCalculatorTest - 2018.01.30 at 10h 31m 26s.xml">
-      <configuration name="stringCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="stringCalculatorTest - 2018.01.30 at 10h 33m 15s.xml">
       <configuration name="stringCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="stringCalculatorTest_testAdd - 2018.01.30 at 10h 31m 15s.xml">
-      <configuration name="stringCalculatorTest.testAdd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="stringCalculatorTest_testAdd - 2018.01.30 at 10h 37m 34s.xml">
       <configuration name="stringCalculatorTest.testAdd" configurationId="JUnit" />
@@ -312,6 +306,12 @@
     <history-entry file="stringCalculatorTest_testAdd - 2018.01.30 at 11h 00m 59s.xml">
       <configuration name="stringCalculatorTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="stringCalculatorTest_testAdd - 2018.01.30 at 11h 08m 31s.xml">
+      <configuration name="stringCalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="stringCalculatorTest_testAdd - 2018.01.30 at 11h 14m 29s.xml">
+      <configuration name="stringCalculatorTest.testAdd" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="659" y="0" width="1269" height="1038" extended-state="0" />
@@ -325,7 +325,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33782268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33782268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -597,18 +597,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="0">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ithaca/agable/stringCalculatorImpl.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/ithaca/agable/stringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
