@@ -20,6 +20,16 @@ class stringCalculatorTest {
         assertEquals(-1,myStringCalculator.Add(oneStringNeg),"Does not add single negative value");
         assertEquals(0,myStringCalculator.Add(oneStringZero),"Does not add single zero value");
 
+        String twoStringPosPos = "1,1";
+        String twoStringPosNeg = "1,-1";
+        String twoStringNegPos = "-1,1";
+        String twoStringNegNeg = "-1,-1";
+
+        assertEquals(2,myStringCalculator.Add(twoStringPosPos),"Does not add two positives");
+        assertEquals(0,myStringCalculator.Add(twoStringPosNeg),"Does not add positive then negative");
+        assertEquals(0,myStringCalculator.Add(twoStringNegPos),"Does not add negative then positive");
+        assertEquals(-2,myStringCalculator.Add(twoStringNegNeg),"Does not add two negatives");
+
     }
 
 }
